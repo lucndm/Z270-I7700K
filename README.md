@@ -1,13 +1,15 @@
-Upgrade MacOS from 10.15.6 to 11.0.1
+* Upgrade MacOS from 11.0.1 to 13.0.1
+* Bump OpenCore to 0.8.5
+* Remove dualboot OS, now only support single boot for Hackintosh.
 ### Function
 
 | Name                | Specifications | Funtional or not |
 | ------------------- | -----------------------------------------|---------------|
 | Processor           | Intel Core i7-7700K Processor            |Fully|
 | Memory              | Corsair Vengeance® RGB PRO 3200Mhz (16x4)                          |Fully|
-| Storage             | Samsung SSD 970 EVO  |Fully|
+| Storage             | WD PC SN730 NVMe SSD 1TB  |Fully|
 | Graphics            | Radeon RX 580                   |Fully with WhateverGreen.kext|
-| Display             | DELL 2518D              |Fully support HIDPI|
+| Display             | Galax VI-01              |Fully support HIDPI|
 | Audio               | Realtek Audio ALC1220 codec               |Fully with AppleALC.kext and layout-id 11|
 | Ethernet            | Intel(R) Ethernet Connection (4) I219-V  |Fully with IntelMausi.kext|
 | WLAN & Bluetooth    | Wifi BCM94360CS2      |Fully|
@@ -37,9 +39,11 @@ Upgrade MacOS from 10.15.6 to 11.0.1
 * Radeon RX 580
 * Wifi BCM94360CS2
 ### Image
-![](./Resource/BigSur.png)
+![](./Resource/Ventura.png)
 ### Ref
 * https://dortania.github.io/OpenCore-Install-Guide/
 * https://github.com/corpnewt/ProperTree
 * https://github.com/dortania/OpenCore-Install-Guide/tree/master/clover-conversion
 * https://www.tonymacx86.com/threads/success-msi-z270-gaming-pro-carbon-intel-tm-core-r-i7-7700k-corsair-rgb-16gb-ram-amd-rx580.228994
+* [MountEFI](https://github.com/corpnewt/MountEFI)
+* [Config Validator](https://github.com/chris1111/Config-Validator)
